@@ -1,0 +1,147 @@
+.benefits-section h2 {
+    text-align: center;
+    color: #094293;
+}
+.benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.benefits-section li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .background-image {
+            
+            width: 100%;
+            height: 50vh; 
+            
+            background-image: url('/IMG/Encabezado.png');
+
+           
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .encabezado {
+         
+            display: flex;
+            justify-content: center;
+        
+            align-items: center;
+        
+            
+            height: 50vh; 
+        }
+        
+        .encabezado-col {
+          
+            font-size: 2em; 
+        }
+        
+        .Principal {
+            width: 100%;
+            height: auto;
+        }
+        
+        
+        .newsletter-form {
+            width: 300px;
+            margin-left: 20px;
+        }
+        .newsletter-form input[type="text"],
+        .newsletter-form input[type="email"] {
+            width: 100%; 
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        
+        
+        
+        .newsletter-form input[type="submit"] {
+            background-color: #094293;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .newsletter-form input[type="submit"]:hover {
+            background-color: #094293;
+        }
+
+
+        
+/* Tarjetas */  
+.contenedor-tarjeta{  
+    width: 100%;  
+    display: flex;  
+    max-width: 1100px;  
+    margin: auto;  
+   }  
+   .titulo-tarjeta{  
+    width: 100%;  
+    max-width: 1080px;  
+    margin: auto;  
+    padding: 20px;  
+    margin-top: 20px;  
+    text-align: center;  
+    color: black;
+   }  
+   .tarjeta{  
+    width: 100%;  
+    margin: 20px;  
+    border-radius: 7px;  
+    overflow: hidden;  
+    background:#fff;  
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);  
+    transition: all 400ms ease-out;  
+    cursor: default;  
+    
+   }  
+   .tarjeta:hover{  
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);  
+    transform: translateY(-4%);  
+   }  
+   .tarjeta img{  
+    width: 100%;  
+    height: 210px;  
+   }  
+   .tarjeta .contenido-tarjeta{  
+    padding: 20px;  
+    text-align: center;  
+   }  
+   .tarjeta .contenido-tarjeta h3{  
+    margin-bottom: 15px;  
+    color: black; 
+   }  
+   .tarjeta .contenido-tarjeta p{  
+    line-height: 1.8;  
+    color: black;
+    font-size: 14px;  
+    margin-bottom: 5px;  
+   }  
+   .tarjeta .contenido-tarjeta a{  
+    display: inline-block;  
+    padding: 10px;  
+    margin-top: 10px;  
+    text-decoration: none;  
+    
+    border-radius: 4px;  
+    transition: all 400ms ease;  
+    margin-bottom: 6px;  
+   }  
+   
+   
+/*PIE DE PÁGINA*/
+footer {
+    text-align: left;
+    padding: 50px;
+    background-color: #094293;
+    color: white;
+    font-size: xx-large;
+}
+
